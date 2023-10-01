@@ -1,0 +1,23 @@
+{
+    "printWidth": 120,
+    "tabWidth": 2,
+    "wrapAttributes": "auto",
+    "wrapAttributesMinAttrs": 2,
+    "sortTailwindcssClasses": true,
+    "sortHtmlAttributes": "none",
+    "noPhpSyntaxCheck": false,
+    "indentInnerHtml": true,
+    "extraLiners": "",
+    "singleAttributePerLine": true,
+
+    "plugins": ["@shufo/prettier-plugin-blade"],
+    "overrides": [
+      {
+        "files": ["*.blade.php"],
+        "options": {
+          "parser": "blade",
+          "tabWidth": 2
+        }
+      }
+    ]
+  }
